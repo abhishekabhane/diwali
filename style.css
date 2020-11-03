@@ -1,0 +1,61 @@
+body {
+        background: url('diwali1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    @media (max-width: 1500px) {
+        body {
+            background-size: auto;
+        }
+    }
+    
+    @media (max-width: 520px) {
+        .container h1 {
+            font-size: 30px !important;
+        }
+        p {
+            font-size: 20px !important;
+        }
+        button {
+            font-size: 20px !important;
+        }
+        #pause {
+            font-size: 13px !important;
+        }
+    }
+    
+    .container {
+        text-align: center;
+        margin-top: 275px;
+    }
+    
+    .video {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .container h1 {
+        color: red;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        text-shadow: 0 0 5px white;
+    }
+    
+    .container p {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(234, 0, 255);
+    }
+    
+    .container button {
+        font-size: 25px;
+        border: none;
+    }
+    
+    #pause {
+        font-size: 17px;
+        color: white;
+    }
